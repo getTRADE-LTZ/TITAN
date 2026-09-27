@@ -1,0 +1,19 @@
+# TITAN — .gitignore
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+target/
+*.log
+*.tmp
+*.swp
+.DS_Store
+.env
+.env.local
+.hermes/
+config/.secrets/
+**/.cache/

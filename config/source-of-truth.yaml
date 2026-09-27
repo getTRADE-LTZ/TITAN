@@ -1,0 +1,20 @@
+# TITAN Source of Truth
+project: TITAN
+owner: getTRADE-LTZ
+repo: https://github.com/getTRADE-LTZ/TITAN
+local_root: H:/rukn-workspace/TITAN
+control_plane: D:/al-khayal-al-waqe
+compute_plane:
+  local: H:/rukn-workspace/titan
+  cloud: /teamspace/studios/this_studio/titan
+  gpu: NVIDIA H200 (141 GB VRAM)
+
+source_of_truth_docs:
+  - ARCHITECTURE.md
+  - G:/BACKUP/FULL PLAN TRAEDE/TITAN_MASTER_2.txt
+
+# Do NOT modify without Owner approval
+gates:
+  real_money: OWNER_APPROVAL_REQUIRED
+  model_download: LOGGED
+  backup: READ_ONLY
