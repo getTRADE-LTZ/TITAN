@@ -1,0 +1,3 @@
+[submodule "modules/hft-core"]
+	path = modules/hft-core
+	url = https://github.com/getTRADE-LTZ/hft-market-engine.git
